@@ -7,7 +7,6 @@
 - /api/circulating-supply
 - /api/full-supply (optional extended JSON)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## **⚙️ Requirements**
 - Python 3.9 or higher
@@ -16,7 +15,6 @@
 - ABI (Application Binary Interface) file
 - A list of excluded wallets (locked, team, burn, etc.)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## **📁 File Structure**
 ```
@@ -26,7 +24,7 @@ token_supply_api/
 ├── .env                     # Token config (RPC URL, excluded wallets, etc.)
 └── README.md                # This file
 ```
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 
 ## **✏️ Setup Instructions**
 
@@ -75,7 +73,7 @@ python token_supply_api.py
 http://your-server-ip:5050/api/total-supply
 http://your-server-ip:5050/api/circulating-supply
 ```
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 
 ## **🌐 Deploying to a Server (e.g. DigitalOcean)**
 
@@ -107,7 +105,7 @@ pip install -r requirements.txt  # or manually install packages
 ```bash
 sudo ufw allow 5050
 ```
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 
 ## **🤔 Example API Output**
 ```bash
@@ -135,7 +133,7 @@ sudo ufw allow 5050
   "circulating_supply": "58861548280198.937500000000000000"
 }
 ```
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 
 ## **🌟 License**
 
