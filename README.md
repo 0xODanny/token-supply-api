@@ -1,34 +1,22 @@
-Token Supply API - Standalone Flask App
-
-A simple, public-facing REST API to expose your token's total supply, circulating supply, and optionally full wallet breakdowns — ideal for CoinGecko or CoinMarketCap listing submissions.
-
 ✨ Features
+	•	✅ Compatible with any ERC-20 token
+	•	🔄 Fetches on-chain data from your blockchain RPC
+	•	🔓 No authentication required
+	•	📊 CoinGecko-compliant endpoints:
+	•	/api/total-supply
+	•	/api/circulating-supply
+	•	/api/full-supply (optional extended JSON)
 
-Compatible with any ERC-20 token
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
-Fetches on-chain data from your blockchain RPC
+⚙️ Requirements
+	•	Python 3.9 or higher
+	•	A server with internet access (e.g., DigitalOcean, AWS, etc.)
+	•	Your token’s contract address
+	•	ABI (Application Binary Interface) file
+	•	A list of excluded wallets (locked, team, burn, etc.)
 
-No authentication required
-
-CoinGecko-compliant endpoints:
-
-/api/total-supply
-
-/api/circulating-supply
-
-/api/full-supply (optional extended JSON)
-
-⚡ Requirements
-
-Python 3.9 or higher
-
-A server with internet access (e.g., DigitalOcean Droplet)
-
-Your token's contract address
-
-ABI (Application Binary Interface) file
-
-A list of excluded wallets (locked, team, burn, etc.)
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 📁 File Structure
 
